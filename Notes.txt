@@ -22,3 +22,19 @@ KATMANLAR
 -Herhangi bir katmanda yapýlan deðiþiklik diðer katmanlarý etkilemez.
 -SOLID
 -PnP : Plug n Play
+--Interface methodlarý default publictir. Fakat Interface'in kendisi default public DEÐÝLDÝR.
+-naming convention
+-LINQ(Language Integrated Query) Dil içerisindeki liste bazlý yapýlarý SQL gibi filtrelemeni saðlar.
+
+Abstract Klasörü(Soyut)
+	Referans tutucular bulunur.
+	Soyut nesneler, interface, abstract class, base class.
+
+Concrete Klasörü(Somut)
+	Gerçek iþi yapan classlar bukunur.
+	Concrete klasöründeki class'lar, veri tabanýndaki bir tabloya karþýlýk gelir.
+
+Internal Class; 
+	Yalnýzca bulunduðu proje(katman) içerisinde ulaþýlabilir. Class'ýn default halidir.
+Public Class;
+	Yalnýzca bulunduðu proje(katman) içerisinde deðil(internal), diðer projelerin(katmanlarýn) de ulaþabilmesi için kullanýlýr.
